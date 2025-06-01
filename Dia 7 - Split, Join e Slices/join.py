@@ -3,7 +3,9 @@ Print the list, [1, 2, 3, 4, 5], in the format 1 | 2 | 3 | 4 | 5 using the join 
 """
 
 lista = [1, 2, 3, 4, 5]
+lista2 = []
 
 for x in lista:
-  lista = ("| ").join(lista)
-print(lista)
+  lista2.append(str(x))
+
+print(" | ".join(lista2))
