@@ -49,4 +49,3 @@ print(
   list_overbudget,
   f"\nIn total, {len(list_overbudget)} movies were overbudget."
 )
-#print(sum_budgets)
