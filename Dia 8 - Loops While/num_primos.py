@@ -1,5 +1,6 @@
-for x in range(1, 100):
-  if x % 2 == 0 or x % 3 == 0 or x % 4 == 0 or x % 5 == 0 or x % 6 == 0 or x % 7 == 0 or x % 8 == 0 or x % 9 == 0:
-    continue
+for x in range(2, 101):
+  for y in range(2, x):
+    if x % y == 0:
+      break
   else:
-    print(x)
+    print(f"{x} é primo.")
